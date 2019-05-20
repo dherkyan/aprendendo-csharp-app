@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AprendendoCSharpApp.Controle.If;
+using AprendendoCSharpApp.OperacaoNoConsole;
 
 namespace AprendendoCSharpApp
 {
@@ -6,7 +7,10 @@ namespace AprendendoCSharpApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new ExibindoMensagemNoConsole().Excutar();
+            new LendoTecladoNoConsole().Excutar();
+            new AprendendoIfElse().Excutar();
+            new AprendendoIf().Excutar();
         }
     }
 }
