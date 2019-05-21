@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.OperacaoNoConsole
 {
-    class LendoTecladoNoConsole : IMain
+    class LendoTecladoNoConsole : ISistema
     {
         public void Excutar()
         {

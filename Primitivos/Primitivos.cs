@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.Primitivos
 {
-    class Primitivos : IMain
+    class Primitivos : ISistema
     {
         public void Excutar()
         {

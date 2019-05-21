@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.Controle.Switch
 {
-    class AprendendoSwitch : IMain
+    class AprendendoSwitch : ISistema
     {
         public void Excutar()
         {

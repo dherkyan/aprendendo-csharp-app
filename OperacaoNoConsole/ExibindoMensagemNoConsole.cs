@@ -3,7 +3,7 @@
 
 namespace AprendendoCSharpApp.OperacaoNoConsole
 {
-    class ExibindoMensagemNoConsole : IMain
+    class ExibindoMensagemNoConsole : ISistema
     {
         public void Excutar()
         {

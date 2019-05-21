@@ -3,7 +3,7 @@ using System.IO;
 
 namespace AprendendoCSharpApp.IO
 {
-    class OperacoesComFile : IMain
+    class OperacoesComFile : ISistema
     {
         public void Excutar()
         {

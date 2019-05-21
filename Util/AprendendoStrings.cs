@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.Pacote
 {
-    class AprendendoStrings : IMain
+    class AprendendoStrings : ISistema
     {
         public void Excutar()
         {

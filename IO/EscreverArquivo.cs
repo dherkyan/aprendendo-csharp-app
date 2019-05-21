@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.IO
 {
-    class EscreverArquivo : IMain
+    class EscreverArquivo : ISistema
     {
         public void Excutar()
         {

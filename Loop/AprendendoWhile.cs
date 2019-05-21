@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.Loop
 {
-    class AprendendoWhile : IMain
+    class AprendendoWhile : ISistema
     {
         public void Excutar()
         {

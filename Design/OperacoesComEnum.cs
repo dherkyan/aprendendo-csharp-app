@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.Design
 {
-    class OperacoesComEnum : IMain
+    class OperacoesComEnum : ISistema
     {
         public void Excutar()
         {

@@ -3,7 +3,7 @@ using System;
 
 namespace AprendendoCSharpApp.Controle.If
 {
-    class AprendendoIf : IMain
+    class AprendendoIf : ISistema
     {
 
         public AprendendoIf()

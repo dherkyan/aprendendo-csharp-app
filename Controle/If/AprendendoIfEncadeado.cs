@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.Controle.If
 {
-    class AprendendoIfEncadeado : IMain
+    class AprendendoIfEncadeado : ISistema
     {
         public void Excutar()
         {

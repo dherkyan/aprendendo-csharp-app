@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AprendendoCSharpApp.IO
 {
-    class LerArquivos : IMain
+    class LerArquivos : ISistema
     {
         public void Excutar()
         {
