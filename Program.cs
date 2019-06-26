@@ -8,12 +8,13 @@ using AprendendoCSharpApp.Loop;
 using AprendendoCSharpApp.OO;
 using AprendendoCSharpApp.OperacaoNoConsole;
 using AprendendoCSharpApp.Pacote;
+using AprendendoCSharpApp.Util;
 
 namespace AprendendoCSharpApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Mainx(string[] args)
         {
 
             List<ISistema> sistemas = new List<ISistema>();
@@ -35,10 +36,13 @@ namespace AprendendoCSharpApp
             sistemas.Add(new EscreverArquivo());
             sistemas.Add(new AprendendoArray());
             sistemas.Add(new ApredendoEquals());
+            sistemas.Add(new ConsoleWriteLineApp());
+            sistemas.Add(new GerandoNumeroAleatorio());
 
 
 
             //sistemas.ForEach(s => s.Excutar());
+            new GerandoNumeroAleatorio().Excutar();
         }
     }
 }

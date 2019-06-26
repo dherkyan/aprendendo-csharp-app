@@ -8,7 +8,6 @@ namespace AprendendoCSharpApp.Controle.If
 
         public AprendendoIf()
         {
-            Titulo();
         }
 
         public void Excutar()
