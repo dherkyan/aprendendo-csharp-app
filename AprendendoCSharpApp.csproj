@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <StartupObject>AprendendoCSharpApp.Classes.Construtor</StartupObject>
+    <StartupObject>AprendendoCSharpApp.Heranca.ClasseAbstrataImpl</StartupObject>
   </PropertyGroup>
 
 </Project>
