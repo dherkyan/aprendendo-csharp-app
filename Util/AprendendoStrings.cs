@@ -47,5 +47,10 @@ namespace AprendendoCSharpApp.Pacote
         {
             Utilitario.Mensagem("Aprendeno string...");
         }
+
+        public string ConverterTextoParaMaiusculo(string texto)
+        {
+            return texto.ToUpper();
+        }
     }
 }
