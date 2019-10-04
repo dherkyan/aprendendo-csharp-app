@@ -2,21 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AprendendoCSharpApp.Pacote
+namespace AprendendoCSharpApp.Util
 {
-    class AprendendoStrings
+    class AprendendoString
     {
 
         public static void Main(string[] args)
-        {
-            string texto = "  Precisamos de um plano de ataque ! Eu tenho um plano. Ataque.  ";
-
-            Console.WriteLine(texto);
-
-            Console.WriteLine("Quantidade de caracteres: {0}", texto.Length);
-        }
-
-        public void Excutar()
         {
             string texto = "  Precisamos de um plano de ataque ! Eu tenho um plano. Ataque.  ";
 
@@ -35,7 +26,7 @@ namespace AprendendoCSharpApp.Pacote
 
             Console.WriteLine(texto.Replace("plano", "Super Plano"));
 
-            Console.WriteLine("Quantidade de caracteres: {0}",texto.Length);
+            Console.WriteLine("Quantidade de caracteres: {0}", texto.Length);
 
             Console.WriteLine(texto.Trim());
 
@@ -45,22 +36,12 @@ namespace AprendendoCSharpApp.Pacote
 
             Console.WriteLine(texto.Substring(texto.Length / 2));
 
-            Console.WriteLine("Texto contém a palavra plano? {0}",texto.Contains("plano"));
+            Console.WriteLine("Texto contém a palavra plano? {0}", texto.Contains("plano"));
 
-            Console.WriteLine("Posição palavra um {0}",texto.IndexOf("um"));
+            Console.WriteLine("Posição palavra um {0}", texto.IndexOf("um"));
 
             Console.WriteLine(texto.ToUpperInvariant());
-            
         }
 
-        public void Titulo()
-        {
-            Utilitario.Mensagem("Aprendeno string...");
-        }
-
-        public string ConverterTextoParaMaiusculo(string texto)
-        {
-            return texto.ToUpper();
-        }
     }
 }
