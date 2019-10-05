@@ -7,7 +7,6 @@ using AprendendoCSharpApp.IO;
 using AprendendoCSharpApp.Loop;
 using AprendendoCSharpApp.OO;
 using AprendendoCSharpApp.OperacaoNoConsole;
-using AprendendoCSharpApp.Pacote;
 using AprendendoCSharpApp.Util;
 
 namespace AprendendoCSharpApp
