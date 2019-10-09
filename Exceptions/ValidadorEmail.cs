@@ -9,6 +9,8 @@ namespace AprendendoCSharpApp.Exceptions
 
         public static void Main(string[] args)
         {
+            ValidarEmail();
+
             try
             {
                 ValidarEmail();

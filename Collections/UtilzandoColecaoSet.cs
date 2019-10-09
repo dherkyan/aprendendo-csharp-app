@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace AprendendoCSharpApp.Collections
 {
-    class AprendendoHashSet : ISistema
+    class UtilzandoColecaoSet
     {
-        public void Excutar()
+        public static void Main(string[] args)
         {
-
             ISet<string> palavras = new HashSet<string>();
 
             string palavra = Console.ReadLine();
@@ -27,11 +25,6 @@ namespace AprendendoCSharpApp.Collections
             }
 
             Console.WriteLine("Programa finalizado...");
-        }
-
-        public void Titulo()
-        {
-            Console.WriteLine("Aprendendo HashSet...");
         }
     }
 }

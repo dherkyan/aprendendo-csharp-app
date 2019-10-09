@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AprendendoCSharpApp", "AprendendoCSharpApp.csproj", "{CEFA1C39-D280-441D-8595-F0DC955A9161}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "acceptance", "acceptance", "{220375C0-3DB7-4D47-ACE3-7A6E183C31D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{50286B2F-4DA3-4B8C-8161-13F4D67B478E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTask", "AcceptanceTask\AcceptanceTask.csproj", "{A014E4AF-3501-4047-A537-D059B1AF460B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{CEFA1C39-D280-441D-8595-F0DC955A9161}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{CEFA1C39-D280-441D-8595-F0DC955A9161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEFA1C39-D280-441D-8595-F0DC955A9161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A014E4AF-3501-4047-A537-D059B1AF460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A014E4AF-3501-4047-A537-D059B1AF460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A014E4AF-3501-4047-A537-D059B1AF460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A014E4AF-3501-4047-A537-D059B1AF460B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEFA1C39-D280-441D-8595-F0DC955A9161} = {50286B2F-4DA3-4B8C-8161-13F4D67B478E}
+		{A014E4AF-3501-4047-A537-D059B1AF460B} = {220375C0-3DB7-4D47-ACE3-7A6E183C31D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFA18663-4CCC-4E3F-89AD-9BED1D7D6E2A}

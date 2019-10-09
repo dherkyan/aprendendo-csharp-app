@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <StartupObject>AprendendoCSharpApp.Exceptions.MultiCatchException</StartupObject>
+    <StartupObject>AprendendoCSharpApp.Collections.UtilizandoQueue</StartupObject>
   </PropertyGroup>
 
 </Project>
